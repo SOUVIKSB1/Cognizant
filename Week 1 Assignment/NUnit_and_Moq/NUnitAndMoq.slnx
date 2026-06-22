@@ -1,0 +1,44 @@
+<Solution>
+  <Folder Name="/Parent project code/" />
+  <Folder Name="/Parent project code/AccountsManagerLib/">
+    <Project Path="Parent project code/AccountsManagerLib/AccountsManagerLib.Tests/AccountsManagerLib.Tests.csproj" />
+    <Project Path="Parent project code/AccountsManagerLib/AccountsManagerLib/AccountsManagerLib.csproj" />
+  </Folder>
+  <Folder Name="/Parent project code/CalcLibrary/" />
+  <Folder Name="/Parent project code/CalcLibrary/CalcLibrary/">
+    <Project Path="Parent project code/CalcLibrary/CalcLibrary/CalcLibrary.Tests/CalcLibrary.Tests.csproj" />
+    <Project Path="Parent project code/CalcLibrary/CalcLibrary/CalcLibrary/CalcLibrary.csproj" />
+  </Folder>
+  <Folder Name="/Parent project code/CollectionsLib/">
+    <Project Path="Parent project code/CollectionsLib/CollectionsLib.Tests/CollectionsLib.Tests.csproj" />
+    <Project Path="Parent project code/CollectionsLib/CollectionsLib/CollectionsLib.csproj" />
+  </Folder>
+  <Folder Name="/Parent project code/ConverterLib/">
+    <Project Path="Parent project code/ConverterLib/ConverterLib.Tests/ConverterLib.Tests.csproj" />
+    <Project Path="Parent project code/ConverterLib/ConverterLib/ConverterLib.csproj" />
+  </Folder>
+  <Folder Name="/Parent project code/FourSeasonsLib/">
+    <Project Path="Parent project code/FourSeasonsLib/FourSeasonsLib.Tests/FourSeasonsLib.Tests.csproj" />
+  </Folder>
+  <Folder Name="/Parent project code/FourSeasonsLib/FourSeasonsLib/">
+    <Project Path="Parent project code/FourSeasonsLib/FourSeasonsLib/SeasonsLib.csproj" />
+  </Folder>
+  <Folder Name="/Parent project code/LeapYearCalculatorLib/">
+    <Project Path="Parent project code/LeapYearCalculatorLib/LeapYearCalculatorLib.Tests/LeapYearCalculatorLib.Tests.csproj" />
+    <Project Path="Parent project code/LeapYearCalculatorLib/LeapYearCalculatorLib/LeapYearCalculatorLib.csproj" />
+  </Folder>
+  <Folder Name="/Parent project code/UserManagerLib/">
+    <Project Path="Parent project code/UserManagerLib/UserManagerLib.Tests/UserManagerLib.Tests.csproj" />
+    <Project Path="Parent project code/UserManagerLib/UserManagerLib/UserManagerLib.csproj" />
+  </Folder>
+  <Folder Name="/Parent project code/UtilLib/">
+    <Project Path="Parent project code/UtilLib/UtilLib.Tests/UtilLib.Tests.csproj" />
+    <Project Path="Parent project code/UtilLib/UtilLib/UtilLib.csproj" />
+  </Folder>
+  <Project Path="CustomerComm.Tests/CustomerComm.Tests.csproj" />
+  <Project Path="CustomerCommLib/CustomerCommLib.csproj" />
+  <Project Path="DirectoryExplorer.Tests/DirectoryExplorer.Tests.csproj" />
+  <Project Path="MagicFilesLib/MagicFilesLib.csproj" />
+  <Project Path="PlayerManager.Tests/PlayerManager.Tests.csproj" />
+  <Project Path="PlayersManagerLib/PlayersManagerLib.csproj" />
+</Solution>

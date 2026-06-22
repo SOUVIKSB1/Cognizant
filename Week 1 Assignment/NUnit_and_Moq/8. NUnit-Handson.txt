@@ -1,0 +1,33 @@
+Objectives
+
+	•	This lab will help you become skilled at writing automated unit tests using the NUnit framework.
+	•	Demonstrate on testing methods that throw an exception.
+Create a Unit Test Project using NUnit Framework for the following requirement. Click here to download the source project.
+Following is the application logic of the given UserManagerLib source project.
+User creation will be successful under the below given condition
+	•	PANCardNo property reads only 10 characters length value from the user. It is a mandatory property while creating the user. 
+
+Following exceptions may occur while creating the user.
+
+	•	NullReferenceException- If the input value is empty or null
+	•	FormatException-If the input string does not meet the length criteria. 
+
+	•	While writing test cases for the above program, you need to ensure that you are handling all types of exception that may raise during the CreateUser method call. Also, write test method for happy path in the function.
+Recommendations:
+Test Project Name: <ClassLib_Project>.Tests 
+Test Class Name: <SUT>Tests
+Test Method Name:  UnitUnderTest_Scenario_ExpectedOutcome 
+Note: 
+	•	Enforce the Single Assertion Rule
+	•	Use Assert.That()
+Steps to perform
+	•	Create a Class Library project in the same solution which is provided and name it as suggested.
+	•	Rename the class file name (<SUT>Tests.cs).
+	•	Add the assembly reference of the UtilLib project to the test project.
+	•	Additionally add the reference of both NUnit and NUnit3TestAdapter in the test project using NuGet Package Manager (NPM).
+	•	Write the suggested test methods.
+	•	Run your tests.
+	•	Break the test by modifying the source project functionality.
+	•	Rerun the test.
+	•	Observe the test result.
+

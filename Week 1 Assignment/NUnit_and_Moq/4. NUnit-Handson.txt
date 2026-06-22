@@ -1,0 +1,37 @@
+ Objectives
+
+	•	This lab will help you become skilled at writing automated unit tests using the NUnit framework.
+	•	Explain & demonstrate various NUnit custom attributes to identify tests.
+
+Create a Unit Test Project using NUnit Framework for the following requirement. Click here to download the source project.
+You are given a user account module called AccountsManagerLib using which an employee can login to the EMS portal using his/her credentials. If he/she provides valid login credentials, then the function should return the following message.
+	“Welcome <user_id>!!!”
+In case user provides invalid details, the function should return the following error message.
+	“Invalid user id/password”
+If user doesn’t provide either userid or password, the function should throw an ArgumentException.
+Valid Credentials are the following 
+User Id
+Password
+user_11
+secret@user11
+user_22
+secret@user22
+
+Recommendations:
+Test Project Name: <ClassLib_Project>.Tests 
+Test Class Name: <SUT>Tests
+Test Method Name:  UnitUnderTest_Scenario_ExpectedOutcome
+After writing the above test methods, run the tests and assert the results with that of the success/failure messages. 
+Note: 
+	•	Enforce the Single Assertion Rule
+	•	Use Assert.That()
+Steps to perform:
+	•	Create a Class Library project in the same solution which is provided and name it as suggested.
+	•	Rename the class file name (<SUT>Tests.cs).
+	•	Add the assembly reference of the UtilLib project to the test project.
+	•	Additionally add the reference of both NUnit and NUnit3TestAdapter in the test project using NuGet Package Manager (NPM).
+	•	Write the suggested test methods.
+	•	Run your tests.
+	•	Break the test by modifying the source project functionality.
+	•	Rerun the test.
+	•	Observe the test result.

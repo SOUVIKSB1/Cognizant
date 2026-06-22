@@ -1,0 +1,23 @@
+Objectives
+	•	Explain the meaning of Unit testing and its difference on comparison with Functional testing
+	•	Smallest unit to test mocking dependencies
+	•	List various types of testing
+	•	Unit testing, Functional testing, Automated testing, Performance testing
+	•	Understand the benefit of automated testing
+	•	Explain what is loosly coupled & testable design
+	•	Write code that is NOT dependent on the class for data.
+	•	Write your first testing program to validate a calculator addition operation
+	•	TestFixture, Test
+	•	Understand the need of [SetUp], [TearDown] & [Ignore] attributes.
+	•	Explain the benefit of writing parameterised test cases.
+	•	TestCase
+
+TestFixture & Test
+Please download the application available here. This will be used to write Unit test cases  Follow the steps listed below to write the NUnit test cases for the application.
+	•	Create a Unit test project(.Net Framework) in the solution provided.
+	•	Add the CalcLibrary project as reference
+	•	Create a class “CalculatorTests” to write all the test cases for the methods in the solution
+	•	Use the ‘TestFixture’, ‘SetUp’ and ‘TearDown’ attributes, to declare, initialize and cleanup activities respectively
+	•	Create a Test method to check the addition functionality
+	•	Use the ‘TestCase’ attribute to send the inputs and the expected result
+	•	Use Assert.That to check the actual and expected result match

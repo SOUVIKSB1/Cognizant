@@ -1,0 +1,28 @@
+Objectives
+
+	•	This lab will help you become skilled at writing automated unit tests using the NUnit framework.
+	•	Explain & demonstrate various NUnit custom attributes to identify tests.
+
+Create a unit test project using NUnit for the given UtilLib project. Click here to download the source project.
+The functionality called ParseHostName which is defined in the UrlHostNameParser class. It parses the host name from the URL using certain logic. Write all possible test methods for the given functionality to make sure that it returns the expected result under various circumstances.
+Since the function is having two execution paths, you need to write at least two test methods. 
+Recommendations:
+Test Project Name: <ClassLib_Project>.Tests 
+Test Class Name: <SUT>Tests
+Test Method Name:  UnitUnderTest_Scenario_ExpectedOutcome 
+Note: 
+	•	Enforce the Single Assertion Rule
+	•	Use Assert.That()
+
+Steps to perform
+	•	Create a Class Library project in the same solution which is provided and name it as suggested.
+	•	Rename the class file name (<SUT>Tests.cs).
+	•	Add the assembly reference of the UtilLib project to the test project.
+	•	Additionally add the reference of both NUnit and NUnit3TestAdapter in the test project using NuGet Package Manager (NPM).
+	•	Write the suggested test methods.
+	•	Run your tests.
+	•	Break the test by modifying the source project functionality.
+	•	Rerun the test.
+	•	Observe the test result.
+
+

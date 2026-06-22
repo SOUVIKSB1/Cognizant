@@ -1,0 +1,47 @@
+Objectives
+
+	•	This lab will help you become skilled at writing automated unit tests using the NUnit framework.
+	•	Explain & Demonstrate TestCaseSource to minimize amount of code used for testing.
+Create a Unit Test Project using NUnit Framework for the following requirement. Click here to download the source project FourSeasonsLib.
+Following is the business scenario implemented in the source project.
+	•	The function accepts a month name and returns what season in that month (both inclusive) based on certain logic. The criteria is elaborated in the matrix below.
+
+Seasons
+Month
+Climate
+Spring
+February to March
+Sunny and pleasant
+Summer
+April to June
+Hot
+Monsoon
+July to September
+Wet, hot and humid
+Autumn
+September to November
+Pleasant
+Winter
+December to January
+Very Cool
+
+Make sure that you are not writing multiple test methods that are equal to the number of execution paths. Your focus should be of writing minimum code while unit testing.
+Try both straight forward and alternate ways of working with the TestCaseSource attribute for the above scenario.
+Recommendations:
+Test Project Name: <ClassLib_Project>.Tests 
+Test Class Name: <SUT>Tests
+Test Method Name:  UnitUnderTest_Scenario_ExpectedOutcome 
+Note: 
+	•	Enforce the Single Assertion Rule
+	•	Use Assert.That()
+Steps to perform
+	•	Create a Class Library project in the same solution which is provided and name it as suggested.
+	•	Rename the class file name (<SUT>Tests.cs).
+	•	Add the assembly reference of the ConverterLib project to the test project.
+	•	Additionally add the reference of NUnit, NUnit3TestAdapter and Moq in the test project using NuGet Package Manager (NPM).
+	•	Write the suggested test methods.
+	•	Run your tests.
+	•	Break the test by modifying the source project functionality.
+	•	Rerun the test.
+	•	Observe the test result.
+
