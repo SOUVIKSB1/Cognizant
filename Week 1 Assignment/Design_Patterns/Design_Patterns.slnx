@@ -1,0 +1,13 @@
+<Solution>
+  <Project Path="AdapterPatternExample/AdapterPatternExample.csproj" />
+  <Project Path="BuilderPatternExample/BuilderPatternExample.csproj" />
+  <Project Path="CommandPatternExample/CommandPatternExample.csproj" />
+  <Project Path="DecoratorPatternExample/DecoratorPatternExample.csproj" />
+  <Project Path="DependencyInjectionExample/DependencyInjectionExample.csproj" />
+  <Project Path="FactoryMethodPatternExample/FactoryMethodPatternExample.csproj" />
+  <Project Path="MVCPatternExample/MVCPatternExample.csproj" />
+  <Project Path="ObserverPatternExample/ObserverPatternExample.csproj" />
+  <Project Path="ProxyPatternExample/ProxyPatternExample.csproj" />
+  <Project Path="SingletonPatternExample/SingletonPatternExample.csproj" />
+  <Project Path="StrategyPatternExample/StrategyPatternExample.csproj" />
+</Solution>

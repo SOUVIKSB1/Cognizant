@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="EcommercePlatformSearch/EcommercePlatformSearch.csproj" />
+  <Project Path="EmployeeManagementSystem/EmployeeManagementSystem.csproj" />
+  <Project Path="FinancialForecasting/FinancialForecasting.csproj" />
+  <Project Path="InventoryManagementSystem/InventoryManagementSystem.csproj" />
+  <Project Path="LibraryManagementSystem/LibraryManagementSystem.csproj" />
+  <Project Path="SortingCustomerOrders/SortingCustomerOrders.csproj" />
+  <Project Path="TaskManagementSystem/TaskManagementSystem.csproj" />
+</Solution>
